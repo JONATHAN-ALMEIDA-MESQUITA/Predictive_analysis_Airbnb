@@ -1,0 +1,126 @@
+[33mcommit 67d179d458f0e6d38a8baf95844429e26035a882[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Fri Nov 1 08:41:31 2024 -0300
+
+    untrack .csv LFS
+
+[33mcommit 706c30544e21d0a28ee32f158b209bcba410a5ab[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Tue Oct 29 23:59:03 2024 -0300
+
+    atualização profile report
+
+[33mcommit a6a6dfd513bd82ce0956f3bbe88401b74cffcbbd[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Mon Oct 21 21:18:58 2024 -0300
+
+    Att notebook
+
+[33mcommit 9b312d9b6143b54f8c0a0578204c8db14729d86a[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Thu Sep 19 23:11:41 2024 -0300
+
+    ajuste mapa de calor
+
+[33mcommit da5fb64ffb6ed475cb5f7b863f8883fca2c26af2[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Thu Sep 19 23:07:04 2024 -0300
+
+    analise preço por região
+
+[33mcommit 873917831a4fc32ccb1d7cc342b6b4e765a27be1[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Wed Sep 18 23:41:37 2024 -0300
+
+    Detecção de outliers
+
+[33mcommit b060e28fb8ae96e2cf8e7999a468a15b6be6164a[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Tue Sep 17 22:36:14 2024 -0300
+
+    Analise estatistica
+
+[33mcommit ebf438da85d4631a126ad31a58fdb7d9b701ed79[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Mon Sep 16 23:21:45 2024 -0300
+
+    Analise exploratoria, tratando valores nulos
+
+[33mcommit 3c9a630fcac0f44625b3c3e5452b1dc03783fd6c[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Wed Sep 11 22:54:03 2024 -0300
+
+    notebook updated
+
+[33mcommit 6a27470e0e291c9517c8cac8a82ed1bee36f0723[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Wed Sep 11 22:51:27 2024 -0300
+
+    Remover referências ao Git LFS
+
+[33mcommit af23f74593650b4902764bd60228f6006ccb09d2[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Mon Sep 16 20:29:58 2024 -0300
+
+    atualização de csv
+
+[33mcommit 7085d564bcef994be1daf35c4e323385f3e177dd[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Wed Sep 11 23:16:09 2024 -0300
+
+    updated notebook and venv folder
+
+[33mcommit 9d87ea1a0abd10d3f7455dc10cc844bf7df93e7c[m
+Merge: 6c1205061 3a8240e65
+Author: Fabricio Vital da Silva <102823420+fabriciovital@users.noreply.github.com>
+Date:   Sun Sep 8 23:14:39 2024 -0400
+
+    Merge pull request #2 from fabriciovital/feature/previsao-precos
+    
+    Feature/previsao precos
+
+[33mcommit 3a8240e65ce6886dfe079fb4b10fa39f96df6561[m
+Merge: 278a8fa9e 6c1205061
+Author: root <root@DESKTOP-3F86FHM>
+Date:   Sun Sep 8 23:08:03 2024 -0400
+
+    Ajustes
+
+[33mcommit 278a8fa9e01fa0e36488a3e95c5c44f67480187f[m
+Author: root <root@DESKTOP-3F86FHM>
+Date:   Sun Sep 8 23:04:13 2024 -0400
+
+    Criação de diretorios e arquivos da estrutura do projeto
+
+[33mcommit 6c120506114f3f78379c305b2778311ca74c4513[m
+Merge: 91f9a0817 8ac86ae46
+Author: Fabricio Vital da Silva <102823420+fabriciovital@users.noreply.github.com>
+Date:   Sun Sep 8 16:11:19 2024 -0400
+
+    Merge pull request #1 from fabriciovital/feature/previsao-precos
+    
+    Ajustes iniciais no readme
+
+[33mcommit 8ac86ae46dd3b4ddb1cbcc0c63838525125de1c4[m
+Author: root <root@DESKTOP-3F86FHM>
+Date:   Sun Sep 8 16:07:34 2024 -0400
+
+    Ajustes iniciais no readme
+
+[33mcommit 91f9a0817eb0f3538f09c2844bb002aaac1cb4f5[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Sun Sep 8 14:05:41 2024 -0300
+
+    dados
+
+[33mcommit a54b4b50a15c67832687ef373af7d4a2d2d28287[m
+Author: Jonathan Mesquita <jonathan.mesquita@hotmail.com>
+Date:   Sun Sep 8 13:57:33 2024 -0300
+
+    Estrutura projeto
+
+[33mcommit de0bee33591e21e9f25e193fed899e390a0f2b1d[m
+Author: Mesquita Jonathan <102821965+JONATHAN-ALMEIDA-MESQUITA@users.noreply.github.com>
+Date:   Sat Sep 7 21:38:45 2024 -0300
+
+    Initial commit
