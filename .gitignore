@@ -1,3 +1,13 @@
-airbnb-venv/Lib/site-packages/xgboost/lib/xgboost.dll
-Data/
+# Ignorar objetos do Git (apenas como precaução)
+.git/objects/
+.git/objects/pack/
 
+# Ignorar ambientes virtuais
+airbnb-venv/
+*.dll
+
+# Ignorar arquivos de dados CSV
+Data/*.csv
+
+# Ignorar resultados do modelo
+Results/*.pkl
