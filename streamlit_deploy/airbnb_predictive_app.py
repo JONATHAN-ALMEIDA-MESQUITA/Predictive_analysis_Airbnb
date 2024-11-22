@@ -74,11 +74,15 @@ if menu == "Previsão de Preços":
             preco_estimado = modelo.predict(dados_usuario.fillna(0))
             st.success(f"O preço estimado da diária é **R$ {preco_estimado[0]:.2f}**")
 
+
     with col2:
         st.subheader("Mapa de Calor")
+        st.write("Este mapa de densidade apresenta a distribuição dos bairros do Rio de Janeiro, destacando os maiores e menores valores de diárias de hospedagem.")
+        st.write("- **Baixa densidade (azul):** Preços baixos")
+        st.write("- **Alta densidade (vermelho):** Preços altos")
         with open("../Results/mapa_precos_airbnb.html", "r", encoding="utf-8") as file:
             mapa_html = file.read()
-        st.components.v1.html(mapa_html, width=900, height=600)
+        st.components.v1.html(mapa_html, width=800, height=500)
 
 # Página de Análise Exploratória
 elif menu == "Análise Exploratória (Notebook)":
@@ -86,7 +90,7 @@ elif menu == "Análise Exploratória (Notebook)":
     st.write("Abaixo está o conteúdo do Jupyter Notebook utilizado no projeto:")
     with open("../Results/airbnb_exploratory_analysis.html", "r", encoding="utf-8") as file:
         notebook_html = file.read()
-    st.components.v1.html(notebook_html, width=1500, height=34000)
+    st.components.v1.html(notebook_html, width=1500, height=34200)
 
 
 # Página Sobre o Projeto
