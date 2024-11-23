@@ -9,7 +9,7 @@ st.set_page_config(layout="wide", page_title="Airbnb Rio de Janeiro - Previsão 
 # Função para carregar o modelo
 @st.cache_resource
 def carregar_modelo():
-    return joblib.load('../Results/modelo_random_forest.pkl')
+    return joblib.load('modelo_random_forest.pkl')
 
 # Seleção da página no menu lateral
 menu = st.sidebar.radio(
@@ -80,7 +80,7 @@ if menu == "Previsão de Preços":
         st.write("Este mapa de densidade apresenta a distribuição dos bairros do Rio de Janeiro, destacando os maiores e menores valores de diárias de hospedagem.")
         st.write("- **Baixa densidade (azul):** Preços baixos")
         st.write("- **Alta densidade (vermelho):** Preços altos")
-        with open("../Results/mapa_precos_airbnb.html", "r", encoding="utf-8") as file:
+        with open("mapa_precos_airbnb.html", "r", encoding="utf-8") as file:
             mapa_html = file.read()
         st.components.v1.html(mapa_html, width=800, height=500)
 
@@ -88,7 +88,7 @@ if menu == "Previsão de Preços":
 elif menu == "Análise Exploratória (Notebook)":
     st.title("Análise Exploratória de Dados")
     st.write("Abaixo está o conteúdo do Jupyter Notebook utilizado no projeto:")
-    with open("../Results/airbnb_exploratory_analysis.html", "r", encoding="utf-8") as file:
+    with open("airbnb_exploratory_analysis.html", "r", encoding="utf-8") as file:
         notebook_html = file.read()
     st.components.v1.html(notebook_html, width=1500, height=34200)
 
@@ -104,6 +104,9 @@ elif menu == "Sobre o Projeto":
     A análise foi construída utilizando dados públicos do Airbnb (de abril de 2018 a maio de 2020) de imóveis localizados no Rio de Janeiro.  
 
     Neste projeto, foi possível praticar a utilização de modelos supervisionados de Machine Learning e explorar diversas ferramentas para criar uma solução completa.
+   
+   Além da análise e modelagem, o projeto foi implementado com Docker para garantir portabilidade e reprodutibilidade, e publicado na Hostinger, permitindo o acesso remoto à aplicação de forma estável e escalável.
+   
     """)
 
     st.subheader("Ferramentas Utilizadas")
@@ -111,6 +114,8 @@ elif menu == "Sobre o Projeto":
     st.write("- **Streamlit** para construção da aplicação")
     st.write("- **Scikit-learn** para modelagem preditiva")
     st.write("- **Folium** para mapas interativos")
+    st.write("- **Docker** para containerização e portabilidade")
+    st.write("- **Hostinger** para hospedagem da aplicação")
     st.write("- **Git** para controle de versão")
     st.write("- **GitHub** como repositório e colaboração")
 

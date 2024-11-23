@@ -11,3 +11,10 @@ Data/*.csv
 
 # Ignorar resultados do modelo
 Results/*.pkl
+
+# Ignorar resultados do modelo
+streamlit_deploy/*.pkl
+
+
+# Ignorar pasta deploy.zip
+Predictive_analysis_Airbnb_property_rental/streamlit_deploy.zip
